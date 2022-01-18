@@ -5,6 +5,8 @@
  */
 package demodaojdbc;
 
+import modelo.entidades.Department;
+
 /**
  *
  * @author jonathan
@@ -15,8 +17,9 @@ public class Program {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-      
+        
+        Department obj = new Department(1, "Books");
+        System.out.println(obj);
     }
     
 }
